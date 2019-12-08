@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="payment-system">
+        <xsd:complexType>
+            <xsd:sequence>
+
+                <xsd:element name="users">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="user" maxOccurs="unbounded">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="name" type="xsd:string"/>
+                                        <xsd:element name="card-ids">
+                                            <xsd:complexType>
+                                                <xsd:sequence>
+                                                    <xsd:element name="card-id" type="xsd:int" maxOccurs="unbounded"/>
+                                                </xsd:sequence>
+                                            </xsd:complexType>
+                                        </xsd:element>
+                                        <xsd:element name="password-hash" type="xsd:string"/>
+                                        <xsd:element name="authority-level" type="xsd:int"/>
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+
+                <xsd:element name="cards">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="card" maxOccurs="unbounded">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="number" type="xsd:string"/>
+                                        <xsd:element name="validity" type="xsd:string"/>
+                                        <xsd:element name="secret-number" type="xsd:int"/>
+                                        <xsd:element name="account-id" type="xsd:int"/>
+                                    </xsd:sequence>
+                                    <xsd:attribute name="id" type="xsd:int"/>
+                                </xsd:complexType>
+                            </xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+
+                <xsd:element name="accounts">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="account" maxOccurs="unbounded">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="number" type="xsd:string"/>
+                                        <xsd:element name="sum" type="xsd:int"/>
+                                        <xsd:element name="blocked" type="xsd:boolean"/>
+                                    </xsd:sequence>
+                                    <xsd:attribute name="id" type="xsd:int"/>
+                                </xsd:complexType>
+                            </xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+
+                <xsd:element name="payments">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="payment" maxOccurs="unbounded">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="number" type="xsd:int"/>
+                                    </xsd:sequence>
+                                    <xsd:attribute name="id" type="xsd:int"/>
+                                </xsd:complexType>
+                            </xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+
+                <xsd:element name="admins">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="admin" maxOccurs="unbounded">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="name" type="xsd:string"/>
+                                        <xsd:element name="password-hash" type="xsd:string"/>
+                                        <xsd:element name="authority-level" type="xsd:int"/>
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

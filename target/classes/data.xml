@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<payment-system>
+    <users>
+        <user>
+            <name>Alex</name>
+            <card-ids>
+                <card-id>1</card-id>
+                <card-id>2</card-id>
+                <card-id>3</card-id>
+            </card-ids>
+            <password-hash>a2498be4359b7695985d001a7ffbee17c577d016</password-hash>
+            <authority-level>0</authority-level>
+        </user>
+        <user>
+            <name>Ann</name>
+            <card-ids>
+                <card-id>4</card-id>
+                <card-id>5</card-id>
+            </card-ids>
+            <password-hash>a2d91f81cde37cd054b49ce56f9258d07255d9ec</password-hash>
+            <authority-level>0</authority-level>
+        </user>
+    </users>
+
+    <cards>
+        <card id="1">
+            <number>4353 5344 4322 5434</number>
+            <validity>03/25</validity>
+            <secret-number>345</secret-number>
+            <account-id>1</account-id>
+        </card>
+        <card id="2">
+            <number>2134 5420 3205 0230</number>
+            <validity>07/23</validity>
+            <secret-number>825</secret-number>
+            <account-id>2</account-id>
+        </card>
+        <card id="3">
+            <number>8437 8583 0303 2351</number>
+            <validity>11/26</validity>
+            <secret-number>850</secret-number>
+            <account-id>3</account-id>
+        </card>
+        <card id="4">
+            <number>3825 5253 6235 3256</number>
+            <validity>12/22</validity>
+            <secret-number>923</secret-number>
+            <account-id>4</account-id>
+        </card>
+        <card id="5">
+            <number>8202 5155 3261 5328</number>
+            <validity>01/22</validity>
+            <secret-number>142</secret-number>
+            <account-id>5</account-id>
+        </card>
+    </cards>
+
+    <accounts>
+        <account id="1">
+            <number>h4j3kh43k12j4h32kv3g</number>
+            <sum>1000</sum>
+            <blocked>true</blocked>
+        </account>
+        <account id="2">
+            <number>134hk5jh43k25h43k25h</number>
+            <sum>3253</sum>
+            <blocked>true</blocked>
+        </account>
+        <account id="3">
+            <number>j54k3lj532lkj5lk432j</number>
+            <sum>920</sum>
+            <blocked>false</blocked>
+        </account>
+        <account id="4">
+            <number>xp2po5p31435p34o5p34</number>
+            <sum>1234</sum>
+            <blocked>true</blocked>
+        </account>
+        <account id="5">
+            <number>4kl323123k43k2l1j4k3</number>
+            <sum>542</sum>
+            <blocked>false</blocked>
+        </account>
+    </accounts>
+
+    <payments>
+        <payment id="1">
+            <number>748329573</number>
+        </payment>
+        <payment id="2">
+            <number>839124039</number>
+        </payment>
+        <payment id="3">
+            <number>843921843</number>
+        </payment>
+        <payment id="4">
+            <number>138483292</number>
+        </payment>
+        <payment id="5">
+            <number>927569275</number>
+        </payment>
+    </payments>
+
+    <admins>
+        <admin>
+            <name>Margarita</name>
+            <password-hash>74d99bd2f2b67653e9a099324f3550f4a6dc9244</password-hash>
+            <authority-level>1</authority-level>
+        </admin>
+    </admins>
+</payment-system>

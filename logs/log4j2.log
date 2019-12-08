@@ -1,0 +1,206 @@
+2019-12-09 01:36:42,874 INFO by.epa.Main [main] Application started.
+2019-12-09 01:36:42,997 INFO by.epa.ser.XSDValidator [main] Validation started.
+2019-12-09 01:36:43,820 INFO by.epa.ser.XSDValidator [main] File src\main\resources\data.xml validated successfully.
+2019-12-09 01:36:43,891 INFO by.epa.dao.XmlReader [main] Xml reader starts parsing file - src/main/resources/data.xml.
+2019-12-09 01:36:44,038 INFO by.epa.dao.par.UserStaxParser [main] Crating parser for users.
+2019-12-09 01:36:44,061 INFO by.epa.dao.par.UserStaxParser [main] Stax parser to parse users from src/main/resources/data.xml is ready.
+2019-12-09 01:36:44,062 INFO by.epa.dao.par.UserStaxParser [main] Stax parser gets list of users.
+2019-12-09 01:36:44,063 INFO by.epa.dao.par.UserStaxParser [main] Start tag: PAYMENT_SYSTEM
+2019-12-09 01:36:44,206 INFO by.epa.dao.par.UserStaxParser [main] Start tag: USERS
+2019-12-09 01:36:44,224 INFO by.epa.dao.par.UserStaxParser [main] Start tag: USER
+2019-12-09 01:36:44,455 INFO by.epa.dao.par.UserStaxParser [main] New user created.
+2019-12-09 01:36:44,456 INFO by.epa.dao.par.UserStaxParser [main] Start tag: NAME
+2019-12-09 01:36:44,465 INFO by.epa.dao.par.UserStaxParser [main] name set.
+2019-12-09 01:36:44,466 INFO by.epa.dao.par.UserStaxParser [main] Start tag: CARD_IDS
+2019-12-09 01:36:44,466 INFO by.epa.dao.par.UserStaxParser [main] Start tag: CARD_ID
+2019-12-09 01:36:44,466 INFO by.epa.dao.par.UserStaxParser [main] card_id add to the list of cards.
+2019-12-09 01:36:44,467 INFO by.epa.dao.par.UserStaxParser [main] Start tag: CARD_ID
+2019-12-09 01:36:44,467 INFO by.epa.dao.par.UserStaxParser [main] card_id add to the list of cards.
+2019-12-09 01:36:44,468 INFO by.epa.dao.par.UserStaxParser [main] Start tag: CARD_ID
+2019-12-09 01:36:44,469 INFO by.epa.dao.par.UserStaxParser [main] card_id add to the list of cards.
+2019-12-09 01:36:44,471 INFO by.epa.dao.par.UserStaxParser [main] Start tag: PASSWORD_HASH
+2019-12-09 01:36:44,471 INFO by.epa.dao.par.UserStaxParser [main] password hash set.
+2019-12-09 01:36:44,472 INFO by.epa.dao.par.UserStaxParser [main] Start tag: AUTHORITY_LEVEL
+2019-12-09 01:36:44,472 INFO by.epa.dao.par.UserStaxParser [main] authority level set.
+2019-12-09 01:36:44,472 INFO by.epa.dao.par.UserStaxParser [main] New user added to the list.
+2019-12-09 01:36:44,473 INFO by.epa.dao.par.UserStaxParser [main] Start tag: USER
+2019-12-09 01:36:44,473 INFO by.epa.dao.par.UserStaxParser [main] New user created.
+2019-12-09 01:36:44,473 INFO by.epa.dao.par.UserStaxParser [main] Start tag: NAME
+2019-12-09 01:36:44,474 INFO by.epa.dao.par.UserStaxParser [main] name set.
+2019-12-09 01:36:44,475 INFO by.epa.dao.par.UserStaxParser [main] Start tag: CARD_IDS
+2019-12-09 01:36:44,475 INFO by.epa.dao.par.UserStaxParser [main] Start tag: CARD_ID
+2019-12-09 01:36:44,475 INFO by.epa.dao.par.UserStaxParser [main] card_id add to the list of cards.
+2019-12-09 01:36:44,476 INFO by.epa.dao.par.UserStaxParser [main] Start tag: CARD_ID
+2019-12-09 01:36:44,476 INFO by.epa.dao.par.UserStaxParser [main] card_id add to the list of cards.
+2019-12-09 01:36:44,476 INFO by.epa.dao.par.UserStaxParser [main] Start tag: PASSWORD_HASH
+2019-12-09 01:36:44,477 INFO by.epa.dao.par.UserStaxParser [main] password hash set.
+2019-12-09 01:36:44,477 INFO by.epa.dao.par.UserStaxParser [main] Start tag: AUTHORITY_LEVEL
+2019-12-09 01:36:44,477 INFO by.epa.dao.par.UserStaxParser [main] authority level set.
+2019-12-09 01:36:44,477 INFO by.epa.dao.par.UserStaxParser [main] New user added to the list.
+2019-12-09 01:36:44,477 INFO by.epa.dao.par.UserStaxParser [main] All users were got by parser (2).
+2019-12-09 01:36:44,478 INFO by.epa.dao.XmlReader [main] Payment system sax parser created.
+2019-12-09 01:36:44,679 WARN by.epa.dao.par.PaymentSaxParser [main] Tag payment-system was ignored.
+2019-12-09 01:36:44,680 WARN by.epa.dao.par.PaymentSaxParser [main] Tag users was ignored.
+2019-12-09 01:36:44,681 WARN by.epa.dao.par.PaymentSaxParser [main] Tag user was ignored.
+2019-12-09 01:36:44,683 WARN by.epa.dao.par.PaymentSaxParser [main] Tag name was ignored.
+2019-12-09 01:36:44,683 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,683 WARN by.epa.dao.par.PaymentSaxParser [main] Tag card-ids was ignored.
+2019-12-09 01:36:44,684 WARN by.epa.dao.par.PaymentSaxParser [main] Tag card-id was ignored.
+2019-12-09 01:36:44,684 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,684 WARN by.epa.dao.par.PaymentSaxParser [main] Tag card-id was ignored.
+2019-12-09 01:36:44,684 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,684 WARN by.epa.dao.par.PaymentSaxParser [main] Tag card-id was ignored.
+2019-12-09 01:36:44,685 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,685 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,685 WARN by.epa.dao.par.PaymentSaxParser [main] Tag password-hash was ignored.
+2019-12-09 01:36:44,685 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,685 WARN by.epa.dao.par.PaymentSaxParser [main] Tag authority-level was ignored.
+2019-12-09 01:36:44,685 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,685 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,686 WARN by.epa.dao.par.PaymentSaxParser [main] Tag user was ignored.
+2019-12-09 01:36:44,686 WARN by.epa.dao.par.PaymentSaxParser [main] Tag name was ignored.
+2019-12-09 01:36:44,688 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,689 WARN by.epa.dao.par.PaymentSaxParser [main] Tag card-ids was ignored.
+2019-12-09 01:36:44,690 WARN by.epa.dao.par.PaymentSaxParser [main] Tag card-id was ignored.
+2019-12-09 01:36:44,690 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,690 WARN by.epa.dao.par.PaymentSaxParser [main] Tag card-id was ignored.
+2019-12-09 01:36:44,691 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,691 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,691 WARN by.epa.dao.par.PaymentSaxParser [main] Tag password-hash was ignored.
+2019-12-09 01:36:44,691 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,691 WARN by.epa.dao.par.PaymentSaxParser [main] Tag authority-level was ignored.
+2019-12-09 01:36:44,692 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,692 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,692 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,692 WARN by.epa.dao.par.PaymentSaxParser [main] Tag cards was ignored.
+2019-12-09 01:36:44,709 WARN by.epa.dao.par.PaymentSaxParser [main] Tag card was ignored.
+2019-12-09 01:36:44,713 INFO by.epa.dao.par.PaymentSaxParser [main] Tag NUMBER was found.
+2019-12-09 01:36:44,714 WARN by.epa.dao.par.PaymentSaxParser [main] Tag validity was ignored.
+2019-12-09 01:36:44,715 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,715 WARN by.epa.dao.par.PaymentSaxParser [main] Tag secret-number was ignored.
+2019-12-09 01:36:44,715 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,715 WARN by.epa.dao.par.PaymentSaxParser [main] Tag account-id was ignored.
+2019-12-09 01:36:44,716 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,717 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,717 WARN by.epa.dao.par.PaymentSaxParser [main] Tag card was ignored.
+2019-12-09 01:36:44,717 INFO by.epa.dao.par.PaymentSaxParser [main] Tag NUMBER was found.
+2019-12-09 01:36:44,732 WARN by.epa.dao.par.PaymentSaxParser [main] Tag validity was ignored.
+2019-12-09 01:36:44,733 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,733 WARN by.epa.dao.par.PaymentSaxParser [main] Tag secret-number was ignored.
+2019-12-09 01:36:44,733 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,734 WARN by.epa.dao.par.PaymentSaxParser [main] Tag account-id was ignored.
+2019-12-09 01:36:44,734 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,734 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,734 WARN by.epa.dao.par.PaymentSaxParser [main] Tag card was ignored.
+2019-12-09 01:36:44,741 INFO by.epa.dao.par.PaymentSaxParser [main] Tag NUMBER was found.
+2019-12-09 01:36:44,765 WARN by.epa.dao.par.PaymentSaxParser [main] Tag validity was ignored.
+2019-12-09 01:36:44,766 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,766 WARN by.epa.dao.par.PaymentSaxParser [main] Tag secret-number was ignored.
+2019-12-09 01:36:44,766 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,766 WARN by.epa.dao.par.PaymentSaxParser [main] Tag account-id was ignored.
+2019-12-09 01:36:44,766 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,767 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,767 WARN by.epa.dao.par.PaymentSaxParser [main] Tag card was ignored.
+2019-12-09 01:36:44,767 INFO by.epa.dao.par.PaymentSaxParser [main] Tag NUMBER was found.
+2019-12-09 01:36:44,767 WARN by.epa.dao.par.PaymentSaxParser [main] Tag validity was ignored.
+2019-12-09 01:36:44,767 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,767 WARN by.epa.dao.par.PaymentSaxParser [main] Tag secret-number was ignored.
+2019-12-09 01:36:44,767 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,767 WARN by.epa.dao.par.PaymentSaxParser [main] Tag account-id was ignored.
+2019-12-09 01:36:44,768 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,768 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,768 WARN by.epa.dao.par.PaymentSaxParser [main] Tag card was ignored.
+2019-12-09 01:36:44,768 INFO by.epa.dao.par.PaymentSaxParser [main] Tag NUMBER was found.
+2019-12-09 01:36:44,768 WARN by.epa.dao.par.PaymentSaxParser [main] Tag validity was ignored.
+2019-12-09 01:36:44,769 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,769 WARN by.epa.dao.par.PaymentSaxParser [main] Tag secret-number was ignored.
+2019-12-09 01:36:44,769 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,769 WARN by.epa.dao.par.PaymentSaxParser [main] Tag account-id was ignored.
+2019-12-09 01:36:44,769 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,770 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,771 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,772 WARN by.epa.dao.par.PaymentSaxParser [main] Tag accounts was ignored.
+2019-12-09 01:36:44,773 WARN by.epa.dao.par.PaymentSaxParser [main] Tag account was ignored.
+2019-12-09 01:36:44,774 INFO by.epa.dao.par.PaymentSaxParser [main] Tag NUMBER was found.
+2019-12-09 01:36:44,777 WARN by.epa.dao.par.PaymentSaxParser [main] Tag sum was ignored.
+2019-12-09 01:36:44,777 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,777 WARN by.epa.dao.par.PaymentSaxParser [main] Tag blocked was ignored.
+2019-12-09 01:36:44,779 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,780 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,780 WARN by.epa.dao.par.PaymentSaxParser [main] Tag account was ignored.
+2019-12-09 01:36:44,804 INFO by.epa.dao.par.PaymentSaxParser [main] Tag NUMBER was found.
+2019-12-09 01:36:44,804 WARN by.epa.dao.par.PaymentSaxParser [main] Tag sum was ignored.
+2019-12-09 01:36:44,805 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,805 WARN by.epa.dao.par.PaymentSaxParser [main] Tag blocked was ignored.
+2019-12-09 01:36:44,807 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,808 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,810 WARN by.epa.dao.par.PaymentSaxParser [main] Tag account was ignored.
+2019-12-09 01:36:44,873 INFO by.epa.dao.par.PaymentSaxParser [main] Tag NUMBER was found.
+2019-12-09 01:36:44,873 WARN by.epa.dao.par.PaymentSaxParser [main] Tag sum was ignored.
+2019-12-09 01:36:44,873 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,874 WARN by.epa.dao.par.PaymentSaxParser [main] Tag blocked was ignored.
+2019-12-09 01:36:44,874 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,874 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,874 WARN by.epa.dao.par.PaymentSaxParser [main] Tag account was ignored.
+2019-12-09 01:36:44,875 INFO by.epa.dao.par.PaymentSaxParser [main] Tag NUMBER was found.
+2019-12-09 01:36:44,875 WARN by.epa.dao.par.PaymentSaxParser [main] Tag sum was ignored.
+2019-12-09 01:36:44,875 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,875 WARN by.epa.dao.par.PaymentSaxParser [main] Tag blocked was ignored.
+2019-12-09 01:36:44,889 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,889 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,890 WARN by.epa.dao.par.PaymentSaxParser [main] Tag account was ignored.
+2019-12-09 01:36:44,891 INFO by.epa.dao.par.PaymentSaxParser [main] Tag NUMBER was found.
+2019-12-09 01:36:44,891 WARN by.epa.dao.par.PaymentSaxParser [main] Tag sum was ignored.
+2019-12-09 01:36:44,891 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,892 WARN by.epa.dao.par.PaymentSaxParser [main] Tag blocked was ignored.
+2019-12-09 01:36:44,893 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,893 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,893 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:44,894 INFO by.epa.dao.par.PaymentSaxParser [main] Payment list created.
+2019-12-09 01:36:45,045 INFO by.epa.dao.par.PaymentSaxParser [main] New payment created.
+2019-12-09 01:36:45,045 INFO by.epa.dao.par.PaymentSaxParser [main] Tag NUMBER was found.
+2019-12-09 01:36:45,045 INFO by.epa.dao.par.PaymentSaxParser [main] Tag PAYMENT was found.
+2019-12-09 01:36:45,046 INFO by.epa.dao.par.PaymentSaxParser [main] Payment was added to the list.
+2019-12-09 01:36:45,046 INFO by.epa.dao.par.PaymentSaxParser [main] New payment created.
+2019-12-09 01:36:45,046 INFO by.epa.dao.par.PaymentSaxParser [main] Tag NUMBER was found.
+2019-12-09 01:36:45,046 INFO by.epa.dao.par.PaymentSaxParser [main] Tag PAYMENT was found.
+2019-12-09 01:36:45,046 INFO by.epa.dao.par.PaymentSaxParser [main] Payment was added to the list.
+2019-12-09 01:36:45,046 INFO by.epa.dao.par.PaymentSaxParser [main] New payment created.
+2019-12-09 01:36:45,046 INFO by.epa.dao.par.PaymentSaxParser [main] Tag NUMBER was found.
+2019-12-09 01:36:45,046 INFO by.epa.dao.par.PaymentSaxParser [main] Tag PAYMENT was found.
+2019-12-09 01:36:45,047 INFO by.epa.dao.par.PaymentSaxParser [main] Payment was added to the list.
+2019-12-09 01:36:45,047 INFO by.epa.dao.par.PaymentSaxParser [main] New payment created.
+2019-12-09 01:36:45,047 INFO by.epa.dao.par.PaymentSaxParser [main] Tag NUMBER was found.
+2019-12-09 01:36:45,047 INFO by.epa.dao.par.PaymentSaxParser [main] Tag PAYMENT was found.
+2019-12-09 01:36:45,047 INFO by.epa.dao.par.PaymentSaxParser [main] Payment was added to the list.
+2019-12-09 01:36:45,048 INFO by.epa.dao.par.PaymentSaxParser [main] New payment created.
+2019-12-09 01:36:45,048 INFO by.epa.dao.par.PaymentSaxParser [main] Tag NUMBER was found.
+2019-12-09 01:36:45,048 INFO by.epa.dao.par.PaymentSaxParser [main] Tag PAYMENT was found.
+2019-12-09 01:36:45,049 INFO by.epa.dao.par.PaymentSaxParser [main] Payment was added to the list.
+2019-12-09 01:36:45,049 INFO by.epa.dao.par.PaymentSaxParser [main] Tag PAYMENTS was found.
+2019-12-09 01:36:45,049 INFO by.epa.dao.par.PaymentSaxParser [main] All payments were read by parser (5).
+2019-12-09 01:36:45,049 WARN by.epa.dao.par.PaymentSaxParser [main] Tag admins was ignored.
+2019-12-09 01:36:45,049 WARN by.epa.dao.par.PaymentSaxParser [main] Tag admin was ignored.
+2019-12-09 01:36:45,049 WARN by.epa.dao.par.PaymentSaxParser [main] Tag name was ignored.
+2019-12-09 01:36:45,050 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:45,050 WARN by.epa.dao.par.PaymentSaxParser [main] Tag password-hash was ignored.
+2019-12-09 01:36:45,050 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:45,050 WARN by.epa.dao.par.PaymentSaxParser [main] Tag authority-level was ignored.
+2019-12-09 01:36:45,050 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:45,050 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:45,051 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:45,051 WARN by.epa.dao.par.PaymentSaxParser [main] Tag null was ignored.
+2019-12-09 01:36:45,136 INFO by.epa.dao.par.CreditCardDomParser [main] Cards list created.
+2019-12-09 01:36:45,164 INFO by.epa.dao.DomParser [main] Creating document for dom parser from file - src\main\resources\data.xml
+2019-12-09 01:36:45,187 INFO by.epa.dao.par.CreditCardDomParser [main] All cards were got by parser (0)
+2019-12-09 01:36:45,238 INFO by.epa.dao.par.AccountDomParser [main] A list of accounts was created.
+2019-12-09 01:36:45,238 INFO by.epa.dao.par.AccountDomParser [main] All accounts were got by parser (0)
+2019-12-09 01:36:45,261 INFO by.epa.dao.par.AdminDomParser [main] List of admins created.
+2019-12-09 01:36:48,040 ERROR by.epa.Main [main] DatabaseException: 
+by.epam.exception.DatabaseException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at by.epam.service.DbManager.getConnection(DbManager.java:39) ~[classes/:?]
+	at by.epam.service.migration.AccountMigrationService.migrate(AccountMigrationService.java:32) ~[classes/:?]
+	at by.epam.Main.main(Main.java:30) [classes/:?]
+2019-12-09 01:36:48,154 INFO by.epa.Main [main] Application finished.
